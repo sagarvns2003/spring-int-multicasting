@@ -6,8 +6,8 @@ import org.springframework.integration.config.EnableIntegration;
 
 @SpringBootApplication
 @EnableIntegration
-public class Application {
+public class MulticastingApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(MulticastingApplication.class, args);
 	}
 }
